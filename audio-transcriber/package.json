@@ -1,0 +1,17 @@
+{
+  "name": "audio-transcriber",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.8.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}
